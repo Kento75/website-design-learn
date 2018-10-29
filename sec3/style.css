@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-bpdy {
+body {
   font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif
 }
 
@@ -57,7 +57,16 @@ bpdy {
   margin-bottom: 20px;
 }
 
+.kiji img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* サイドメニュー */
+.sidemenu {
+  margin-bottom: 30px;
+}
+
 .sidemenu ul {
   margin: 0;
   padding: 0;
@@ -85,6 +94,10 @@ bpdy {
 }
 
 /* オススメ記事一覧 */
+.osusume {
+  margin-bottom: 30px;
+}
+
 .osusume ul {
   margin: 0;
   padding: 0;
@@ -136,6 +149,13 @@ background-color: #eeeeee;
   border-bottom: dotted 2px #dddddd;
   color: #666666;
   font-size: 18px;
+}
+
+/* コピーライト */
+.copyright p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
