@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--  <link rel="stylesheet" href="grid-guide.css"> -->
+  <link href="http://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet" type="text/css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+  <!--  <link rel="stylesheet" href="grid-guide.css"> -->
   <link rel="stylesheet" href="style.css">
   <title>sec3</title>
 </head>
@@ -31,16 +33,29 @@
   <div class="boxA">
     <div class="box3">
       <article class="kiji">
+        <div class="kijicat">
+          <ul>
+            <li><a href="#">食べ物</a></li>
+            <li><a href="#">お出かけ</a></li>
+          </ul>
+        </div>
         <h1>もぎたてトマトを美味しく食べたい！</h1>
+        <div class="kijiinfo">
+          <time datetime="2018-10-30">
+            <i class="fa fa-clock-o"></i>2018年10月30日
+          </time>
+        </div>
         <p><img src="img/tomato.jpg" alt="tomato"></p>
         <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
+        <h2>新鮮なトマトの見分け方</h2>
         <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
+        <h2>もぎたてトマトの美味しい食べ方</h2>
         <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
@@ -49,24 +64,63 @@
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
       </article>
+
+      <div class="share">
+        <ul>
+        <li><a href="https://twitter.com/intent/tweet?text=%E3%82%82%E3%81%8E%E3%81%9F%E3%81%A6%E3%83%88%E3%83%9E%E3%83%88%E3%82%92%E7%BE%8E%E5%91%B3%E3%81%97%E3%81%8F%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84%EF%BC%81&amp;url=http%3A%2F%2Fexample.com&amp;via=ebisucom" onclick="window.open(this.href, 'SNS', 'width=500, height=300, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-tw">
+          <i class="fa fa-twitter"></i>
+          <span>Twitter</span>でシェア
+        </a></li>
+        <li><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fexample.com" onclick="window.open(this.href, 'SNS', 'width=500, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-fb">
+          <i class="fa fa-facebook"></i>
+          <span>Facebook</span>でシェア
+        </a></li>
+        <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fexample.com" onclick="window.open(this.href, 'SNS', 'width=500, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="share-gp">
+          <i class="fa fa-google-plus"></i>
+          <span>Google+</span>でシェア
+        </a></li>
+        </ul>
+      </div>
     </div>
     <div class="box4">
       <div class="box4-1">
         <aside class="sidemenu">
           <h1>特集記事</h1>
           <ul>
-            <li><a href="#">わかりやすい地図の読み方</a></li>
-            <li><a href="#">苗から始めるトマト作り</a></li>
-            <li><a href="#">料理とスマホの便利な関係</a></li>
-            <li><a href="#">パッテリーを長持ちさせる技</a></li>
+            <li><a href="#">
+              <i class="fa fa-caret-right"></i>
+              わかりやすい地図の読み方</a>
+            </li>
+            <li><a href="#">
+              <i class="fa fa-caret-right"></i>
+              苗から始めるトマト作り</a>
+            </li>
+            <li><a href="#">
+              <i class="fa fa-caret-right"></i>
+              料理とスマホの便利な関係</a>
+            </li>
+            <li><a href="#">
+              <i class="fa fa-caret-right"></i>
+              パッテリーを長持ちさせる技</a>
+            </li>
           </ul>
         </aside>
 
         <aside class="osusume">
           <h1>オススメ記事</h1>
           <ul>
-            <li><a href="#">初めてのフラワーアレンジメント</a></li>
-            <li><a href="#">古い端末が出てきたので充電してみたら・・・</a></li>
+            <li><a href="#">
+              <img src="img/flower.jpg" alt="flower">
+              <div class="text">
+                初めてのフラワーアレンジメント
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/old.jpg" alt="old">
+              <div class="text">
+                古い端末が出てきたので充電してみたら…
+              </div>
+            </a></li>
           </ul>
         </aside>
       </div>
@@ -75,12 +129,48 @@
         <aside class="ninki">
           <h1>人気の記事</h1>
           <ul>
-            <li><a href="#">花好きのオススメ鑑賞スポット</a></li>
-            <li><a href="#">通話アプリの便利な使い方</a></li>
-            <li><a href="#">森林浴＆温泉を満喫するならココ！</a></li>
-            <li><a href="#">世界各地の買い物袋</a></li>
-            <li><a href="#">部屋を彩るカラフルな家具</a></li>
-            <li><a href="#">海の中で出会ったものたち</a></li>
+            <li><a href="#">
+              <img src="img/sakura-60x60.jpg" alt="sakura">
+              <div class="text">
+                花好きのオススメ鑑賞スポット
+                <span>お出かけ</span>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/tel-60x60.jpg" alt="tel">
+              <div class="text">
+                通話アプリの便利な使い方
+                <span>スマホ&タブレット</span>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/green-60x60.jpg" alt="mori">
+              <div class="text">
+                森林浴＆温泉を満喫するならココ！
+                <span>お出かけ</span>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/bag-60x60.jpg" alt="bag">
+              <div class="text">
+                世界各地の買い物袋
+                <span>雑貨</span>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/color-60x60.jpg" alt="color">
+              <div class="text">
+                部屋を彩るカラフルな家具
+                <span>雑貨</span>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <img src="img/sea-60x60.jpg" alt="sea">
+              <div class="text">
+                海の中で出会ったものたち
+                <span>お出かけ</span>
+              </div>
+            </a></li>
           </ul>
         </aside>
       </div>
