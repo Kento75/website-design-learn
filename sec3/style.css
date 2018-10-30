@@ -170,7 +170,8 @@ body {
 
 .osusume li a {
   display: block;
-  padding: 5px;
+  padding: 0;
+  margin-bottom: 10px;
   color: #000000;
   font-size: 14px;
   text-decoration: none;
@@ -178,6 +179,7 @@ body {
 
 .osusume li a:hover {
 background-color: #eeeeee;
+opacity: 0.8;
 }
 
 .osusume h1 {
@@ -186,6 +188,34 @@ background-color: #eeeeee;
   color: #666666;
   border-bottom: dotted 2px #dddddd;
   font-size: 18px;
+}
+
+.osusume img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+}
+
+.osusume .text {
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+/* オススメ記事メニューのテキストを重ねる */
+.osusume a {
+  position: relative;
+}
+
+.osusume .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* 人気の記事メニュー */
